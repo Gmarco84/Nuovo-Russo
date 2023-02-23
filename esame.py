@@ -246,7 +246,7 @@ def detect_similar_monthly_variation(time_series,years):
         # variabile che conterrà l'anno per ogni item[0] (primi 4 caratteri)
         # associa ad 'anno' il primo valore (cioè la data) di item
         anno=item[0]
-        # converte l'anno in int (primi 4 caratteri)
+        # converte l'anno in int (primi 4 caratteri) 
         anno=int(anno[:4])
         
         # controlla se si trova sul primo o secondo anno
